@@ -1,7 +1,7 @@
 .Titulo {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 30px;
   opacity: 0.9; /* Opacidad del 50% */
   z-index: 1; /* Asegura que la imagen se superponga */
 }
