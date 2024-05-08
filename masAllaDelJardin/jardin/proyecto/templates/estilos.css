@@ -1,12 +1,11 @@
 .Titulo {
-    position: absolute; /* Posicionamiento absoluto */
-    top: 0; /* Posiciona la imagen en la parte superior */
-    left: 0.6; /* Posiciona la imagen en la izquierda */
-  }
-  .Titulo {
-    opacity: 0.9; /* Opacidad del 50% */
-  }
-  #imagent { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.9; /* Opacidad del 50% */
+  z-index: 1; /* Asegura que la imagen se superponga */
+}
+ #imagent { 
     width: 30px;
   }
   
