@@ -56,8 +56,8 @@ nav {
 
 nav {
   position: absolute; /* Make navigation absolute for positioning */
-  top: 210px; /* Adjust position from top */
-  left: 300px; /* Adjust position from left */
+  top: 220px; /* Adjust position from top */
+  left: 330px; /* Adjust position from left */
   /* Additional styling for the navigation (colors, font, etc.) */}
 header {
   
@@ -70,14 +70,14 @@ header {
   
   nav ul {
     list-style: none;
-    margin: 6;
+    margin: 7;
     padding: 0;
     display: flex;
     justify-content: space-between;
   }
   
   nav li {
-    margin-right: 50px;
+    margin-right: 200px;
     font-size: 30px;
   }
   
