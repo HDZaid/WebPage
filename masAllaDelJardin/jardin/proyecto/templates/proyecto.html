@@ -12,7 +12,7 @@
         .container {
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-items: right;
             flex-wrap: wrap;
         }
         .box {
@@ -25,6 +25,18 @@
             display: block;
             /* Color de fondo del cuadro de texto */
             background-color: #47221E; 
+        }
+        .boxSinopsis {
+            width: 75%;
+            margin-bottom: 40px;
+            padding: 20px;
+            border: 20px solid #E7C17F; /* 1 */
+            border-radius: 80px;/* 5 */
+            /* Ajuste para mostrar en bloque */
+            display: block;
+            /* Color de fondo del cuadro de texto */
+            background-color: #47221E; 
+            
         }
         .box img {
             max-width: 100%;
@@ -51,14 +63,60 @@
 <div class="container">
     <!-- Primer cuadro de texto -->
     <div class="box">
-        <h2>Cuadro 1</h2>
-        <p>Texto del cuadro 1</p>
+        <h1>*SERIE 1 *</h1>
+        <p>se recomienda ver esta serie justo despues de terminar mas alla del jardin
+            puesto que es una serie que se parece bastante y puede aportar una experiencia
+            similar 
+        </p>
     </div>
+    
     <!-- Segundo cuadro de texto -->
-    <div class="box">
-        <h2>Cuadro 2</h2>
-        <p>Texto del cuadro 2</p>
-    </div>
+
+        <style>
+            .character-box {
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+                padding: 10px; 
+            }
+    
+            .character-image {
+                width: 300px; 
+                height: auto; 
+                margin-right: 20px; 
+            }
+            .recomm {
+                width: 300px; 
+                height: auto; 
+                margin-right: 20px; 
+            }
+            .character-description {
+                flex: 1;
+                color: #E7C17F;
+                text-align: justify; /* Set text align to left */
+                }
+        </style>
+            </head>
+            <body>
+            <div class="container"> 
+            <div class="box">
+                <div class="character-box">
+                    <a href="https://ibb.co/rHk34Rq"><img src="https://i.ibb.co/jDhzgPq/Poster.png" alt="Poster" border="0" class="character-image"></a>
+
+                    <div class="character-description">
+                        <p> Mas alla del jardin es una miniserie animada que te invita a un viaje lleno de misterio y aventura. Esta joya de la animacion,  transmitida en Cartoon Network, te sumerge en un bosque raro y magico, conocido como "Lo Desconocido".
+                
+                            La serie sigue a dos hermanos, Wirt y Greg, quienes se encuentran perdidos en este bosque misterioso. Con la ayuda de un sombrio hombre que vive tala arboles y una pajaro azul parlante llamada Beatrice, deben encontrar su camino a casa. Pero no todo es lo que parece en este bosque de oscuras connotaciones simbolicas.
+                            
+                            Es una obra maestra de la animacion, con un estilo unico que combina el cuento infantil con los grabados vintage. Cada episodio te sumerge en un mundo de pesadilla, a medio camino entre la fantasia y la realidad, lleno de personajes excentricos y amenazadores.
+                            
+                            Con su narrativa rompedora y anarquica, sus personajes inolvidables y su extraordinaria ambientacion, esta serie te mantendra pegado a la pantalla desde el primer hasta el ultimo episodio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     <!-- Tercer cuadro de texto -->
     <div class="box">
         <h2>Cuadro 3</h2>
